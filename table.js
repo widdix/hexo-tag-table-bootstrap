@@ -11,7 +11,7 @@ var marked = require('marked');
 module.exports = function(args, content){
 	var style, icon;
 	if (args.length > 0)
-		style = 'table '+args[0];
+		style = 'table ' + args.join(" ");
 	else
 		style ='table';
 var table=marked(content);
