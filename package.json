@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jorgeabad/hexo-tag-table-bootstrap/issues"
   },
-  "homepage": "https://github.com/jorgeabad/hexo-tag-table-bootstrap#readme"
+  "homepage": "https://github.com/jorgeabad/hexo-tag-table-bootstrap#readme",
+  "dependencies": {
+    "marked": "0.3.9"
+  }
 }
